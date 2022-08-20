@@ -1,13 +1,12 @@
 #    How to run:
 
-##    - `docker-compose up -d --build`
+##    -1- `docker-compose up -d --build` 
 
-##    - access main page through URL: localhost:8000
+##    -2- `docker exec -it <web_container_name> bash -c "./tuto.sh"` : for futher instruction on how to use the App
 
-##    - access APIs through URL: localhost:8000/docs
+##    -3- access main page through URL: localhost:8000
 
-
-Please use: `docker exec -it elydata_web_1 bash -c "./tuto.sh"` for futher instruction on how to use the App.
+##    -4- access APIs through URL: localhost:8000/docs
 
 
 #Available routes:
@@ -22,5 +21,4 @@ Please use: `docker exec -it elydata_web_1 bash -c "./tuto.sh"` for futher instr
 
 #Remarks
 !no need to provide credentials, I have already created a test account
-
 !env.py file in alembic folder was altered according to app's needs
