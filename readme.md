@@ -1,18 +1,18 @@
-#How to run:
+# How to run:
 
-##    - docker-compose up -d --build
+##    - `docker-compose up -d --build`
 
 ##    - access main page through URL: localhost:8000
 
 ##    - access APIs through URL: localhost:8000/docs
 
 
-Please use: <mark style="background-color: lightblue">docker exec -it elydata_web_1 bash -c "./tuto.sh" </mark> for futher instruction on how to use the App.
+Please use: `docker exec -it elydata_web_1 bash -c "./tuto.sh"` for futher instruction on how to use the App.
 
 
 #Available routes:
 
-/scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" : scrape a public page and save data to postgresql DB
+`#0969DA`	/scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" : scrape a public page and save data to postgresql DB
 !the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
 
 /pages : view all scrapped pages
