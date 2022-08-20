@@ -75,5 +75,5 @@ async def index():
 @app.get('/check-db')
 async def index():
     cnt = db.session.query(fbPageModel).count()
-    return {"row count" : cnt}
+    return {"DB row count" : cnt}
 
