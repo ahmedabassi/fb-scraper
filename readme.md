@@ -1,4 +1,4 @@
-# How to run:
+#    How to run:
 
 ##    - `docker-compose up -d --build`
 
@@ -12,7 +12,7 @@ Please use: `docker exec -it elydata_web_1 bash -c "./tuto.sh"` for futher instr
 
 #Available routes:
 
-`#0969DA`	/scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" : scrape a public page and save data to postgresql DB
+/scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" : scrape a public page and save data to postgresql DB
 !the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
 
 /pages : view all scrapped pages

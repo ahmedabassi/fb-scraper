@@ -20,6 +20,9 @@ echo ${check}
 
 echo ""
 
+f="If you want to see what has been scrapped, I suggest you use FastApi's SwaggerUI with the /pages API"
+echo ${f}
+
 bye="I hope to hear from you soon!"
 echo  ${bye}
 echo "###########################################################################################################"
