@@ -6,7 +6,9 @@
     alembic init alembic 
     (modify env file in alembic folder and add db url)
     alembic upgrade head
-    alembic revision --autogenerate -m "1  Migration"
+    alembic revision --autogenerate -m "1 Migration"
 
-4- to run app go to src and in terminal type in : uvicorn main:app --reload (remove reload when in prod i guess)
+    create database fb; -> DB 
+
+4- to run app go to src and in terminal type in : uvicorn main:app --reload
 

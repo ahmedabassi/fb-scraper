@@ -1,0 +1,29 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    command: bash -c "alembic upgrade head && uvicorn main:app --host 0.0.0.0 --port 8000"
+    ports:
+      - "8000:8000"  
+    depends_on:
+      - db
+    restart: always
+    networks: 
+              - net    
+  db:
+    image : postgres
+    ports:
+      - "5432:5432"
+    environment: 
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=fb 
+      - POSTGRES_USER=postgres 
+      - POSTGRES_PASSWORD=11021999
+    restart: always
+    networks: 
+              - net
+
+networks:
+        net:

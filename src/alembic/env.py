@@ -19,6 +19,8 @@ sys.path.append(BASE_DIR)
 # Access to the values within the .ini file in use.
 config = context.config
 
+DATABASE_URL = 'postgresql://postgres:11021999@localhost/fb'
+
 #  Making a connection
 config.set_main_option('sqlalchemy.url', os.environ['DATABASE_URL'])
 ########################################################

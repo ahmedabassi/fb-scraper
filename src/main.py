@@ -33,6 +33,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 #session init
 app.add_middleware(DBSessionMiddleware, db_url=os.environ['DATABASE_URL'])
 
