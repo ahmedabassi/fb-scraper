@@ -1,8 +1,14 @@
 #How to run:
 
-##    - docker-compose up --build
+##    - docker-compose up -d --build
 
-##    - access through URL: localhost:8000
+##    - access main page through URL: localhost:8000
+
+##    - access APIs through URL: localhost:8000/docs
+
+
+Please use: <mark style="background-color: lightblue">docker exec -it elydata_web_1 bash -c "./tuto.sh" </mark> for futher instruction on how to use the App.
+
 
 #Available routes:
 
