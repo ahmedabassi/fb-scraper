@@ -12,7 +12,7 @@ started="To get started use the following command ---> docker exec -it <web_cont
 echo ${started}
 
 pg="    - page_name : page name from Facebook's public page url (e.g https://www.facebook.com/<page_name>)"
-av="    - page_cnt : how many pages to view when scraping, the more pages you use the longer the program will take"
+av="    - page_cnt : how many pages to view when scraping, the more pages you use the longer the program will take( I recommend you use 2 pages)"
 echo Input variables are the following: ; echo ${pg} ; echo ${av}
 
 echo ""
