@@ -2,7 +2,8 @@
 
 ##    -1- `docker-compose up -d --build` 
 
-##    -2- `docker exec -it <web_container_name> bash -c "./tuto.sh"` : for futher instruction on how to use the App
+##    -2- `docker exec -it <web_container_name> bash -c "./tuto.sh"` 
+-> for futher instruction on how to use the App (MUST CHECK!)
 
 ##    -3- access main page through URL: localhost:8000
 
@@ -12,7 +13,8 @@ The APP will save the following attributes: post URL, post text, posting time, p
 
 # Available routes:
 
-## /scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" : scrape a public page and save data to postgresql DB
+## /scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" 
+-> scrape a public page and save data to postgresql DB
 
 !the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
 
