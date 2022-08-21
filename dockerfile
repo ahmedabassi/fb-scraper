@@ -22,7 +22,7 @@ RUN sed -i -e 's/\r$//' ./check.sh
 #
 RUN sed -i -e 's/\r$//' ./scrape.sh
 
-
+#CMD command is in the compose file!
 
 
 

@@ -6,6 +6,7 @@ echo ${frst}
 
 echo ""
 
+echo "Please note that <web_container_name> is in the NAMES section of \"docker ps\" command when you run the \"docker-compse up\" command"
 scrape="./scrape.sh"
 started="To get started use the following command ---> docker exec -it <web_container_name> bash -c \"${scrape}\""
 echo ${started}

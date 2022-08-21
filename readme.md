@@ -4,6 +4,7 @@
 
 ##    -2- `docker exec -it <web_container_name> bash -c "./tuto.sh"` 
 -> for futher instruction on how to use the App (MUST CHECK!)
+-> !web_container_name is in the NAMES section of `docker ps` command when you run `docker-compse up` command
 
 ##    -3- access main page through URL: localhost:8000
 
@@ -15,9 +16,9 @@ The APP will save the following attributes: post URL, post text, posting time, p
 # Available routes:
 
 ## /scrape-page?page_name=""&page_scroll_cnt="" 
--> scrape a public page and save data to postgresql DB using public's page name and how many pages to scroll through
+-> scrape a public page and save data to postgresql DB using public's page name and the count of how many pages to scroll through
 
-!the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
+!the bigger the "page_scroll_cnt" the more time it will take for scraping to be executed and saved in DB
 
 ## /pages 
 -> view all scrapped pages' data
