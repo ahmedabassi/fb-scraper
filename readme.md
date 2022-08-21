@@ -27,5 +27,6 @@ The APP will save the following attributes: post URL, post text, posting time, p
 -> check how many rows we have in the table (for checking if the API works)
 
 # Remarks
-!no need to provide credentials, I have already created a test account
-!env.py file in alembic folder was altered according to app's needs
+no need to provide credentials, I have already created a test account
+
+env.py file in alembic folder was altered according to app's needs
