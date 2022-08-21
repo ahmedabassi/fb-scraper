@@ -13,8 +13,8 @@ The APP will save the following attributes: post URL, post text, posting time, p
 
 # Available routes:
 
-## /scrape-page?page_name="public page name"&page_scroll_cnt="how many pages to scroll through" 
--> scrape a public page and save data to postgresql DB
+## /scrape-page?page_name=""&page_scroll_cnt="" 
+-> scrape a public page and save data to postgresql DB using public's page name and how many pages to scroll through
 
 !the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
 
