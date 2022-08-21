@@ -13,3 +13,16 @@ RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 # 
 COPY ./src /app
 
+#
+RUN sed -i -e 's/\r$//' ./tuto.sh
+
+#
+RUN sed -i -e 's/\r$//' ./check.sh
+
+#
+RUN sed -i -e 's/\r$//' ./scrape.sh
+
+
+
+
+

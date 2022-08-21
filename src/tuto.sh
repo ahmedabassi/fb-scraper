@@ -6,7 +6,8 @@ echo ${frst}
 
 echo ""
 
-started="To get started use the following command ---> docker exec -it <web_container_name> bash -c ./scrape.sh"
+scrape="./scrape.sh"
+started="To get started use the following command ---> docker exec -it <web_container_name> bash -c \"${scrape}\""
 echo ${started}
 
 pg="    - page_name : page name from Facebook's public page url (e.g https://www.facebook.com/<page_name>)"
@@ -15,7 +16,8 @@ echo Input variables are the following: ; echo ${pg} ; echo ${av}
 
 echo ""
 
-check="To check if it worked use the following command ---> docker exec -it <web_container_name> bash -c ./check.sh"
+c="./check.sh"
+check="To check if it worked use the following command ---> docker exec -it <web_container_name> bash -c \"${c}\""
 echo ${check}
 
 echo ""
