@@ -9,6 +9,7 @@
 
 ##    -4- access APIs through URL: localhost:8000/docs
 
+#    Description:
 The APP will save the following attributes: post URL, post text, posting time, post image link, likes count, comments count, shares count
 
 # Available routes:
@@ -18,9 +19,11 @@ The APP will save the following attributes: post URL, post text, posting time, p
 
 !the bigger the "page_scroll_cnt" the more times it will take for scraping to be executed and saved in DB
 
-## /pages : view all scrapped pages
+## /pages 
+-> view all scrapped pages' data
 
-## /check-db : check how many rows we have in the table (for checking if the API works)
+## /check-db 
+-> check how many rows we have in the table (for checking if the API works)
 
 # Remarks
 !no need to provide credentials, I have already created a test account
